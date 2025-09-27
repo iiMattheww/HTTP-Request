@@ -1,3 +1,12 @@
+/**
+ * HTTP Helper Utility (XMLHttpRequest Version)
+ * ------------------------------------------------
+ * A lightweight and reusable utility for making HTTP requests
+ * using the built-in XMLHttpRequest API.
+ * 
+ * Works in any browser (no fetch API required).
+ */
+
 const listElement = document.querySelector(".posts");
 const postTemplate = document.getElementById("single-post");
 const form = document.querySelector("#new-post form");
